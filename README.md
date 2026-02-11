@@ -3,6 +3,23 @@
 Un CRUD completo para registrar y gestionar tus mascotas con **login seguro** y una **interfaz bonita** con Bootstrap.
 
 ---
+## Instalación
+
+Después de clonar este repositorio, es necesario instalar las dependencias tanto de PHP (Composer) como de Node.js (npm), ya que las carpetas `vendor` y `node_modules` no están incluidas en el repositorio (siguiendo las buenas prácticas):
+
+```bash
+# Instalar dependencias de PHP
+composer install
+
+# Instalar dependencias de Node.js
+npm install
+```
+
+Con esto tendrás todas las dependencias necesarias para ejecutar la aplicación correctamente.
+
+> **Nota:**  
+> Las carpetas `vendor` y `node_modules` nunca deben subirse al repositorio. Están listadas en el archivo `.gitignore`. Esto permite mantener el repositorio ligero y evitar problemas de compatibilidades o seguridad.  
+> Si tienes errores relacionados con dependencias al iniciar el proyecto, asegúrate de haber ejecutado los comandos anteriores.
 
 ##  ¿Qué es esto?
 
